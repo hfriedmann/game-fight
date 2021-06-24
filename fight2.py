@@ -9,8 +9,7 @@ pp = 0
 
 def keybild():
     keyboard.on_press(moveplay)
-    #while True:
-     #   pass
+
 
 def w():
     lbl = Label(window, text="W", font=("Arial Bold", 50))
